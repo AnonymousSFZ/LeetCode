@@ -1,3 +1,6 @@
+/* Given a string, find the length of the longest substring without
+ * repeating characters.
+ */
 int lengthOfLongestSubstring(string s) {
         int max=s.length()?1:0, i =1 ;
         string buffer, substring;
